@@ -1,0 +1,10 @@
+body{
+	background: lightgray;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+header{
+	background: white;
+	height: 50px;
+	width: 100%;
+}

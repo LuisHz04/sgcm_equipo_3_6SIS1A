@@ -1,0 +1,27 @@
+body{
+	background: lightgray;
+	font-family: Arial, Helvetica, sans-serif;
+}
+header{
+	background: white;
+	height: 50px;
+	width: 100%;	
+}
+h1{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+}
+section{
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	left: 350px;
+	top: 150px;
+	margin:100px;
+}
+img{
+	width:80px;
+	height:80px;
+	
+}
