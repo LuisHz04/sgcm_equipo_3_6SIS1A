@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="CSS/estilo-ism.css" type="text/CSS" rel="stylesheet"/>
+<title>iniciar sesion</title>
+</head>
+<body>
+	<div class= "inicio">
+		<br><br>
+		<h1>Iniciar Sesión Médico</h1>
+		<br>
+		<p>Para iniciar sesión agrega los datos solicitados en los espacios correspondientes:</p>
+		<br><br><br><br>
+ 		<form action="" method="post" id="form">
+			<div class="form">
+				<h2>Iniciar Sesión</h2>
+				<div class="grupo">
+					<input type="text" name="user_per">
+					<label for="user_per">Usuario</label>
+				</div>
+				<div class="grupo">
+					<input type="password" name="pass_per">
+					<label for="pass_per">Contraseña</label>
+				</div>
+				<div class="select">
+					<select class="roles" name= "rol">
+						<option selected value="0">Rol</option>
+						<option value="1" id="id_rol">General</option>
+						<option value="2" id="id_rol">Especialista</option>
+					</select>
+				</div>
+			</div>
+			<div class="boton">
+			<button type="submit" onclick="location.href='inicio_medico.html'">Ingresar</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
