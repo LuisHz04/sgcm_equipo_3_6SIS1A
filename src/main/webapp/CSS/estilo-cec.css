@@ -1,0 +1,99 @@
+@charset "ISO-8859-1";
+
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	background-color: #eeeeee;
+	justify-content: center;
+	
+}
+
+.personales body{
+	display: flex;
+	background: #eeeeee;
+	justify-content: center;
+	height: 600px;
+}
+
+a, li{
+	font-family: "Segoe UI";
+}
+
+.logo-header img{
+	width: 50px;
+	height: 50px;
+}
+
+header{
+	background-color: #FFFFFF;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 2rem;
+}
+
+.nav-menu ul{
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu li{
+	margin-right: 1.5rem;
+}
+
+.nav-menu a:hover{
+	color: #000000;
+}
+
+.nav-menu li:last-child {
+	background-color: #11B7FF;
+	border: 2px solid #11B7FF;
+	padding: 0.50rem 1rem;
+	border-radius: 0.5rem;
+}
+
+.nav-menu li:last-child:hover {
+	background: transparent;
+	border: 2px solid #11B7FF;
+}
+
+h1{
+	text-align: center;
+	font-size: 40px;
+	font-family: "Segoe UI";
+}
+
+h2{
+	font-family: "Segoe UI";
+	font-size: 20px;
+	position: relative;
+}
+
+button{
+	font-family: "Segoe UI";
+	font-size: 14px;
+	background: #11B7FF;
+	border: none;
+	width: 20%;
+	height: 40px;
+	color: #FFFFFF;
+}
+
+form .boton{
+	position: relative;
+	height: 40px; 
+	margin: -20px -50px; 
+	width:100%; 
+	top:50%; 
+	left:50%;
+}
+
+.final{
+	text-align: center;
+	font-family: "Segoe UI";
+}
