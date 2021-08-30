@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="CSS/estilo-cec.css" type="text/CSS" rel="stylesheet"/>
+<title>Expediente clinico</title>
+</head>
+<body>
+	<header class="header">
+		<div class="logo-header">
+			<img alt= "logo" src="C:/Users/Paola Hernández/eclipse-workspace/sgcm/src/main/webapp/imagenes/logo.jpg"/>
+		</div>
+		<nav class="nav-menu">
+			<ul>
+				<li><a href="inicio_medico.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br><br>
+	<div class="inicio">
+		<h1>Nuevo expediente clinico</h1>
+		<br>
+		<h2>Datos personales</h2>
+		<br>
+		<form action="" method="post" id="form">
+			<div class="personales">
+				<p>
+				<label for="nss">NSS</label>
+				<input type="text" name="nss">
+				<label for="nom_paci">Nombre</label>
+				<input type="text" name="nom_paci">
+				<label for="appat_paci">Apellido paterno</label>
+				<input type="text" name="appat_paci">
+				<label for="apmat_paci">Apellido materno</label>
+				<input type="text" name="apmat_paci">
+				</p>
+				<br><br>
+				<p>
+				<label for="tel_paci">Telefono</label>
+				<input type="text" name="tel_paci">
+				<label for="fechanaci_paci">Fecha de nacimiento</label>
+				<input type="text" name="fechanaci_paci">
+				<label for="curp_paci">CURP</label>
+				<input type="text" name="curp_paci">
+				<label for="fecha_dpaci">Fecha de alta</label>
+				<input type="text" name="fecha_dpaci">
+				<label for="tipo_gen">Genero</label>
+				<input type="text" name="tipo_gen">
+				</p>
+			</div>
+			<br><br>
+			<div class="interrogatorio">
+				<h2>Interrogatorio</h2>
+				<br>
+				<input type="text" name="tipo_sangre">
+				<label for="tipo_sangre">Tipo de sangre</label>
+				<br><br>
+				<input type="text" name="pregunta1">
+				<label for="pregunta1">Pregunta 1</label>
+				<br><br>
+				<input type="text" name="pregunta2">
+				<label  for="pregunta2">Pregunta 2</label>
+				<br><br>
+				<input type="text" name="pregunta3">
+				<label for="pregunta3">Pregunta 3</label>
+				<br><br>
+				<input type="text" name="preguntan">
+				<label for="preguntan">Pregunta N</label>
+				<br><br>
+				<input type="text" name="tipo_alergia">
+				<label for="tipo_alergia">Tipo de alergias</label>
+			</div>
+			<br><br>
+			<div class="ficha">
+				<h2>Ficha diagnostico</h2>
+				<br>
+				<p>
+				<label for="talla_dpaci">Talla</label>
+				<input type="text" name="talla_dpaci">
+				<label for="peso_dpaci">Peso</label>
+				<input type="text" name="peso_dpaci">
+				<label for="tempe_dpaci">Temperatura</label>
+				<input type="text" name="tempe_dpaci">
+				<label for="fecha_dpaci">Fecha de la ficha diagnostico</label>
+				<input type="text" name="fecha_dpaci">
+				</p>
+			</div>
+			<br><br>
+			<div class="diagnostico">
+				<h2>Diagnostico y tratamientos</h2>
+				<br>
+				<h3>Datos del médico</h3>
+				<br>
+				<p>
+				<label for="num_colegiado">Numero de colegiado</label>
+				<input type="text" name="num_colegiado">
+				<label for="nom_per">Nombre</label>
+				<input type="text" name="nom_per">
+				<label for="appat_per">Apellido paterno</label>
+				<input type="text" name="appat_per">
+				<label for="apmat_paci">Apellido materno</label>
+				<input type="text" name="apmat_paci">
+				</p>
+				<br>
+				<p>
+				<label for="tipo_espe">Especialidad</label>
+				<input type="text" name="tipo_espe">
+				<label for="id_cita">ID cita</label>
+				<input type="text" name="id_cita">
+				<label for="id_expclinico">ID expediente</label>
+				<input type="text" name="id_expclinico">
+				</p>
+			</div>
+			<br><br>
+			<div class="final">
+				<p>
+				<label for="nota">Diagnostico</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<input type="text" name="nota">
+				<label for="nota">Tratamiento</label>
+				<input type="text" name="nota">
+				</p>
+			</div>
+			<br><br>
+			<div class="boton">
+			<button>Registrar</button>
+			</div>
+		<br><br><br>
+		</form>
+	</div>
+</body>
+</html>
