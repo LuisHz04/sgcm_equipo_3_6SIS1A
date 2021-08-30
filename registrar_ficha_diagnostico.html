@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="CSS/estilo-registrarfichadiagnostico.css" type="text/CSS" rel="stylesheet"/>
+<title>Registrar ficha diagnostico</title>
+</head>
+<body>
+	<header class="header">
+		<div class="logo-header">
+			<img src="C:/Users/HDEZ/eclipse-workspace/sgcm_equipo_3_6SIS1A/src/main/webapp/imagenes/L4.jpg">
+		</div>
+		<nav class="nav-menu">
+			<ul>
+				<li><a href="inicio_paciente.html">Inicio</a></li>
+			</ul>
+		</nav>
+	</header>
+	<br>
+	<br>
+	<div class="inicio">
+		<h1>Nueva ficha diagnostico</h1>
+		<br>
+		<br>
+		<p>Para registrar una fiha diagnostica agregar los datos solicitados en los espacios correspondientes:<p>
+		<br>
+		<label for="nss">NSS</label>
+		<input type="text" name="nss">
+		<button>Buscar</button>
+		<form action="" method="post" id="form">
+			<div class="personales">
+			<br>
+			<br>
+				<h2>Datos Personales</h2>
+				<p>
+				<label for="nss">NSS</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="nombre_paci">Nombre</label>
+				<label for="appat_paci">Apellido paterno</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="apmat_paci">Apellido materno</label>
+				</p>
+				<br><br>
+				<p>
+				<label for="tel_paci">Telefono</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="fechanaci_paci">Fecha de nacimiento</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="curp_paci">CURP</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="alta_paci">Fecha de alta</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="tipo_gen">Genero</label>
+				</p>
+			</div>
+			<br><br>
+			<div class="interrogatorio">
+				<h2>Interrogatorio</h2>
+				<br>
+				<label for="tipo_sangre">Tipo de sangre</label>
+				<br>
+				<label for="preguna1">Pregunta 1</label>
+				<br>
+				<label for="pregunta2">Pregunta 2</label>
+				<br>
+				<label for="pregunta3">Pregunta 3</label>
+				<br>
+				<label for="preguntan">Pregunta N</label>
+				<br>
+				<label for="tipo_alergia">Tipo de alergias</label>
+			</div>
+			<br><br>
+			<div class="ficha">
+				<h2>Ficha diagnostico</h2>
+				<br>
+				<p>
+				<label for="talla_dpaci">Talla</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="peso_dpaci">Peso</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="tempe_dpaci">Temperatura</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="fecha_dpaci">Fecha de la ficha diagnostico</label>
+				</p>
+			</div>
+			<br><br>
+			<div class="diagnostico">
+				<h2>Diagnostico y tratamientos</h2>
+				<br>
+				<h3>Datos del médico</h3>
+				<br>
+				<p>
+				<label for="num_colegiado">Numero de colegiado</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="nombre_per">Nombre</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="appat_per">Apellido paterno</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="apmat_per">Apellido materno</label>
+				</p>
+				<br>
+				<label for="id_espe">Especialidad</label>
+				<p>
+				<br>
+				<label for="id_cita">ID cita</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="id_expclinico">ID expediente</label>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+				<label for="fecha_dpaci">Fecha</label>
+				<input type="text" name="fecha_dpaci" id= "" required>
+				</p>
+			</div>
+			<br><br>
+			<div class="final">
+				<p>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label for="nota">Diagnostico</label>
+				<input type="text" name="nota" id= "" required>
+				&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label for="nota">Tratamiento</label>
+				<input type="text" for="nombre_paci" required>
+				
+				</p>
+			</div>
+			<br><br>
+			<div class="boton">
+			<button>Registrar</button>
+			</div>
+		<br><br><br>
+		</form>
+	</div>
+</html>

@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registra_Nueva_Cuenta_Paciente</title>
+<link rel="stylesheet" href="CSS/estilonuevacuentapaciente.css">
+</head>
+<body>
+<div id="NCuenta">
+<header>
+<img alt="logo" src="C:/Users/Bere/eclipse-workspace/sgcmb/imagenes/L4.jpg" width="50" height="50">
+</header>
+
+<h1>Registrar Cuenta</h1>
+
+<p>
+Para registrar al paciente agrega sus datos solicitados en los espacios correspondientes:
+</p>
+<form action ="nuevopaciente.php" method="post">
+<section>
+<h2>Registrar Paciente</h2>
+<br>
+
+<input type="text" name="nombre_paci" placeholder="Nombre(s)" style="width:400px; height:30px; left:100px; top:90px;">
+<br>
+<input type="text" name="appat_paci" placeholder="Apellido paterno" style="width:400px; height:30px; left:100px; top:150px;">
+<br>
+<input type="text" name="apmat_paci" placeholder="Apellido materno" style="width:400px; height:30px; left:100px; top:210px;">
+<br>
+<input type="tel" name="tel_paci" placeholder="Numero de telefono fijo/celular" style="width:400px; height:30px; left:100px; top:270px;">
+<br>
+<input type="date" name="fechanaci_paci" placeholder="Fecha de nacimiento" style="width:400px; height:30px; left:100px; top:330px;">
+<br>
+<input type="text" name="curp_paci" placeholder="CURP" style="width:400px; height:30px; left:100px; top:390px;">
+<br>
+<input type="date" name="alta_paci" placeholder="Fecha de alta" style="width:400px; height:30px; left:100px; top:450px;">
+<br>
+<input type="text" name="user_paci" placeholder="Usuario" style="width:400px; height:30px; left:100px; top:510px;">
+<br>
+<input type="password" name="pass_paci" placeholder="Contrase�a" style="width:400px; height:30px; left:100px; top:570px;">
+<br>
+<select name="COcupacion_id_ocu"  style="width:400px; height:30px; left:100px; top:630px;">
+    <option value="1">trabajos manuales</option>
+    <option value="2">trabajos profecionales</option>
+    <option value="3">servicios</option>
+    <option value="4">fuerzas armadasservicios de emergencia</option>
+    <option value="5">restaurantes/hoteles</option>
+    <option value="6">deportes</option>
+    <option value="7">oficina</option>
+</select>
+<br>
+<select name="CEstadoCivil_id_edocivil" style="width:400px; height:30px; left:100px; top:690px;">
+    <option value="1">soltero</option>
+    <option value="2">casado</option>
+    <option value="3">divorciado</option>
+    <option value="4">viudo</option>
+</select>
+<br>
+<select name="CAlergia_id_alergia" style="width:400px; height:30px; left:100px; top:750px;">
+    <option value="1">Alergia estacional</option>
+    <option value="2">Alergia a las mascotas </option>
+    <option value="3">Alergia al interior</option>
+    <option value="4">Alergias cutaneas</option>
+    <option value="5">Alergias alimentarias</option>
+    <option value="6">Alergia al polen</option>
+    <option value="7">Alergia al sol</option>
+    <option value="8">Conguntivitis alergica</option>
+    <option value="9">Ninguna</option>
+</select>
+<br>
+<select name="CTipoSangre_id_sangre" style="width:400px; height:30px; left:100px; top:810px;">
+    <option value="1">A positivo</option>
+    <option value="2">A negativo</option>
+    <option value="3">B positivo</option>
+    <option value="4">B negativo</option>
+    <option value="5">AB positivo</option>
+    <option value="6">AB negativo</option>
+    <option value="7">O positivo</option>
+    <option value="8">O negativo</option>
+</select>
+<br>
+<select name="CGenero_id_gen" style="width:400px; height:30px; left:100px; top:870px;">
+    <option value="1">Hombre</option>
+    <option value="2">Mujer</option>
+</select>
+<br>
+<br>
+<input type="submit" value="Registrar" style=" background-color:dodgerblue; border-color: dodgerblue; color:white; width:100px; height:30px; left:250px; top:940px;">
+</section>
+</form>
+</div>
+
+</body>
+</html>
