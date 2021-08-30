@@ -1,0 +1,44 @@
+body{
+	background: lightgray;
+	font-family: Arial, Helvetica, sans-serif;
+	
+}
+header{
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+p{
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	left: 400px;
+	top: 100px;
+	text-align: center;
+	font-size: 150%;
+}
+
+section{
+	position: absolute;
+	width: 500px;
+	height: 300px;
+	left: 350px;
+	top: 150px;
+	background: white;
+	margin:100px;
+	border: 3px solid gray;
+	
+}
+h2{
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left: 50px;
+	top: 10px;
+}
+input{
+	position: absolute;
+	left: 25px;
+}
