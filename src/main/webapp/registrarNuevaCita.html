@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registrar_Nueva_Cita</title>
+<link rel="stylesheet" href="CSS/estilonuevacita.css">
+</head>
+<body>
+<div id="NCita">
+<header>
+<img alt="logo" src="L4.jpg" width="50" height="50">
+</header>
+
+
+<h1>Registrar Cita</h1>
+
+<p>
+Para registrar una cita al paciente agrega sus datos solicitados en los espacios correspondientes:
+</p>
+<form action ="nuevacita.php" method="post">
+<section>
+<h2>Registrar Cita</h2>
+
+<input type="text" name="nss" placeholder="NSS" style="width:400px; height:30px; left:100px; top:90px;">
+<input type="text" name="nombre_paci" placeholder="Nombre(s)" style="width:400px; height:30px; left:100px; top:150px;">
+<input type="text" name="appat_paci" placeholder="Apellido paterno" style="width:400px; height:30px; left:100px; top:210px;">
+<input type="text" name="apmat_paci" placeholder="Apellido materno" style="width:400px; height:30px; left:100px; top:270px;">
+<input type="tel" name="tel_paci" placeholder="Numero de telefono fijo/celular" style="width:400px; height:30px; left:100px; top:330px;">
+<input type="date" name="fecha_cita" placeholder="Fecha de la cita" style="width:400px; height:30px; left:100px; top:390px;">
+<input type="time" name="hora_cita" placeholder="Hora de la cita" style="width:400px; height:30px; left:100px; top:450px;">
+<input type="number" name="num_colegiado" placeholder="Numero de colegiado del medico de cabecera" style="width:400px; height:30px; left:100px; top:510px;">
+<input type="text" name="nombre_per" placeholder="Nombre(s)del medico" style="width:400px; height:30px; left:100px; top:570px;">
+<input type="text" name="appat_per" placeholder="Apellido paterno del medico" style="width:400px; height:30px; left:100px; top:630px;">
+<input type="text" name="apmat_per" placeholder="Apellido materno del medico" style="width:400px; height:30px; left:100px; top:690px;">
+
+<input type="submit" value="Registrar"style=" background-color:dodgerblue; border-color: dodgerblue; color:white; width:100px; height:30px; left:250px; top:770px;">
+</section>
+</form>
+</div>
+
+</body>
+</html>
