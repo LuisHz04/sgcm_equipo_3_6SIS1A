@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+body {
+	background: lightgray;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+
+header {
+	height: 50px;
+	width: 100%;
+	text-align: center;	
+}
+
+p{
+	position: absolute;
+	width: 600px;
+	height: 400px;
+	left: 400px;
+	top: 100px;
+	text-align: center;
+	font-size: 150%;
+}
+
+section{
+	position: absolute;
+	width: 800px;
+	height: 725px;
+	left: 350px;
+	top: 50px;
+	background: white;
+	margin: 50px;
+	border: 3px solid gray;
+}
+
+h2{
+	width:400px; 
+	height:30px; 
+	left:50px;
+	top:90px;
+}
